@@ -1,4 +1,4 @@
-const data = [
+const stockMarket1 = [
   {
     value: 1,
     timestamp: "2024-01-10T08:30:45.123Z",
@@ -121,4 +121,115 @@ const data = [
   },
 ];
 
-module.exports = data;
+const stockMarket2 = [
+  {
+    value: 50,
+    timestamp: "2024-01-10T08:30:45.123Z",
+  },
+  {
+    value: 60,
+    timestamp: "2024-01-10T08:31:15.789Z",
+  },
+  {
+    value: 70,
+    timestamp: "2024-01-10T08:31:42.567Z",
+  },
+  {
+    value: 80,
+    timestamp: "2024-01-10T08:32:02.345Z",
+  },
+  {
+    value: 90,
+    timestamp: "2024-01-10T08:32:29.012Z",
+  },
+  {
+    value: 100,
+    timestamp: "2024-01-10T08:33:00.000Z",
+  },
+  {
+    value: 101,
+    timestamp: "2024-01-10T08:33:30.000Z",
+  },
+  {
+    value: 102,
+    timestamp: "2024-01-10T08:34:00.000Z",
+  },
+  {
+    value: 103,
+    timestamp: "2024-01-10T08:34:30.000Z",
+  },
+  {
+    value: 104,
+    timestamp: "2024-01-10T08:35:00.000Z",
+  },
+  {
+    value: 105,
+    timestamp: "2024-01-10T08:35:30.000Z",
+  },
+  {
+    value: 106,
+    timestamp: "2024-01-10T08:36:00.000Z",
+  },
+  {
+    value: 107,
+    timestamp: "2024-01-10T08:36:30.000Z",
+  },
+  {
+    value: 108,
+    timestamp: "2024-01-10T08:37:00.000Z",
+  },
+  {
+    value: 109,
+    timestamp: "2024-01-10T08:37:30.000Z",
+  },
+  {
+    value: 110,
+    timestamp: "2024-01-10T08:38:00.000Z",
+  },
+  {
+    value: 120,
+    timestamp: "2024-01-10T08:38:30.000Z",
+  },
+  {
+    value: 130,
+    timestamp: "2024-01-10T08:39:00.000Z",
+  },
+  {
+    value: 140,
+    timestamp: "2024-01-10T08:39:30.000Z",
+  },
+  {
+    value: 150,
+    timestamp: "2024-01-10T08:40:00.000Z",
+  },
+  {
+    value: 160,
+    timestamp: "2024-01-10T08:40:30.000Z",
+  },
+  {
+    value: 170,
+    timestamp: "2024-01-10T08:41:00.000Z",
+  },
+  {
+    value: 180,
+    timestamp: "2024-01-10T08:41:30.000Z",
+  },
+  {
+    value: 190,
+    timestamp: "2024-01-10T08:42:00.000Z",
+  },
+  {
+    value: 200,
+    timestamp: "2024-01-10T08:42:30.000Z",
+  },
+];
+
+const otherValues = [
+  { value: "Rastgele 1", timestamp: "2024-01-10T08:30:45.123Z" },
+  { value: "Rastgele 2", timestamp: "2024-01-10T08:30:45.123Z" },
+  { value: "Rastgele 3", timestamp: "2024-01-10T08:30:45.123Z" },
+  { value: "Rastgele 4", timestamp: "2024-01-10T08:30:45.123Z" },
+  { value: "Rastgele 5", timestamp: "2024-01-10T08:30:45.123Z" },
+];
+
+module.exports = { stockMarket1, stockMarket2, otherValues };
